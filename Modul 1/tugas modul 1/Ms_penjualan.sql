@@ -17,7 +17,7 @@ DROP TABLE IF EXISTS tr_penjualan;
 
 -- 5. MEMBUAT TABEL tr_penjualan
 CREATE TABLE tr_penjualan (
-    kode_urut_transaksi INT,
+    kode_urut_transaksi INT PRIMARY KEY,
     kode_transaksi VARCHAR(20),
     kode_pelanggan VARCHAR(20),
     tgl_transaksi DATETIME,
